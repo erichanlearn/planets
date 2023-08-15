@@ -1,8 +1,10 @@
 import React from 'react'
-
+import '../index.css'
 const Search = () => {
   return (
-    <h1>Search</h1>
+    <div>
+      
+    </div>
   );
 }
 

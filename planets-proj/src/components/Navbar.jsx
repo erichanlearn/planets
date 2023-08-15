@@ -1,16 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaEarthAfrica } from 'react-icons/fa'
 const Navbar = () => {
   return (
     <div className="bar">
-        <div className="logo">
-            <h1>PLANETS <FaEarthAfrica/></h1>
-        </div>
+        <Link className="logo" to={'/'}>planets</Link>
+
         <div className="display-menu">
-            <Link className="menu" to={'/'}>Home</Link>
-            <Link className="menu" to={'/Search'}>Search</Link>
-            <Link className="menu" to={'/About'}>About</Link>
+            <Link className="menu" to={'/'}>home</Link>
+            <Link className="menu" to={'/Search'}>search</Link>
+            <Link className="menu" to={'/About'}>about</Link>
         </div>
     </div>
   )

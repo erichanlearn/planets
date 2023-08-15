@@ -4,7 +4,6 @@ import Home from './pages/Home.jsx'
 import Search from './pages/Search.jsx'
 import About from './pages/About.jsx'
 import Navbar from './components/Navbar.jsx'
-import { FaEarthAfrica } from 'react-icons/fa'
 const App = () => 
 {
   return (

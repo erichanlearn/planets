@@ -1,0 +1,46 @@
+.welcome {
+    left: 0;
+    margin-top: -70px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color:white;
+    z-index:1;
+  }
+  
+  .explore {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    position:relative;
+  }
+  
+  .style-button {
+    padding:10px;
+    border-radius:12px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-top:2rem;
+    font-size:large;
+    border:solid;
+    border-color:rgb(255, 84, 82);
+    border-width:2.5px;
+    font-weight:bold;
+  }
+  
+  .style-button:hover {
+    background-color:rgb(123, 123, 123);
+    transition:0.2s;
+    cursor:pointer;
+  }
+video {
+    width: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    z-index:-1;
+}
