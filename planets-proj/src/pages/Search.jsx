@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../index.css';
-
+//
 const Search = () => {
   const [data, setData] = useState('');
   const [planetName, setPlanetName] = useState('');
