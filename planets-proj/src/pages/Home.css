@@ -1,13 +1,15 @@
 .welcome {
-    left: 0;
-    margin-top: -70px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    color:white;
-    z-index:1;
-  }
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  width: 100%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 1;
+  font-size: 3.2vw;
+  margin-top: -1.5vw; 
+}
   
   .explore {
     display:flex;
@@ -22,12 +24,14 @@
     border-radius:12px;
     padding-right:15px;
     padding-left:15px;
-    margin-top:2rem;
-    font-size:large;
+    margin-top:1rem;
     border:solid;
-    border-color:rgb(255, 84, 82);
+    font-size:2vw;
+    border-color:rgb(255, 255, 255);
     border-width:2.5px;
     font-weight:bold;
+    background-color:black;
+    color:white;
   }
   
   .style-button:hover {

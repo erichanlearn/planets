@@ -13,16 +13,12 @@ body {
 }
 
 .bar {
-  display: flex;
+  margin:0;
+  display:inline-flex;
   width: 100%;
   height: auto;
   align-items:center;
   height: 60px;
-  border-bottom:solid;
-  border-width:1.5px;
-  border-color:rgb(0, 0, 0);
-  border-width:2px;
-  background:transparent;
   background-color:black;
   z-index:2;
   position:absolute;

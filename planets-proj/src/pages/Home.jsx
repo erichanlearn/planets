@@ -5,13 +5,17 @@ const Home = () => {
   return (
     <div className="homescreen">
       <video src={videoBg} autoPlay loop muted/>
-      <h1 className="welcome">welcome. click below to explore</h1>
-      <div className="explore">
-      <a href='/Search'>
-      <button className="style-button">
-        teleport
-      </button>
-      </a>
+      <div className="tbcontainer">
+        <h1 className="welcome">
+          welcome. click below to explore
+        </h1>
+          <div className="explore">
+            <a href='/Search'>
+            <button className="style-button">
+              teleport
+            </button>
+            </a>
+          </div>
       </div>
     </div>
   );
